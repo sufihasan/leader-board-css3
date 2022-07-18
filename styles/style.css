@@ -27,17 +27,29 @@ main {
 
 }
 
+hr {
+
+    border: 1px solid #D1D1D1;
+}
+
 /* top players */
+
+.top-players {
+
+    margin-bottom: 30px;
+}
 
 .top-players-title {
 
     color: #562EFF;
+    margin-top: 3px;
 }
 
 .players {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
 }
 
 .player {
@@ -58,4 +70,42 @@ main {
 .player-name {
 
     margin-left: 10px;
+    font-size: 18px;
+}
+
+/* top-blog styles */
+
+.blog .thamnail img {
+
+    width: 177px;
+    height: 117px;
+}
+
+.blog {
+
+    display: flex;
+}
+
+.blog-info {
+
+    margin-left: 10px;
+}
+
+.blog-title {
+
+    font-size: 20px;
+
+}
+
+.blog-author {
+
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-author a {
+
+    text-decoration: none;
+
+    color: #562EFF;
 }
